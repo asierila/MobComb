@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MobCombLab1</string>
     <string name="button">Button</string>
+    <string name="time_button">Time Button</string>
+    <string name="map_button">Map Button</string>
 </resources>
