@@ -48,7 +48,7 @@ class TimeActivity : AppCompatActivity() {
                             AppDatabase::class.java,
                             "reminders"
                         ).build()
-                        dp.reminderDao().instert(reminder)
+                        dp.reminderDao().insert(reminder)
                         dp.close()
 
                         setAlarm(reminder.time!!, reminder.message)
