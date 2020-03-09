@@ -175,3 +175,4 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         }
     }
 }
+
